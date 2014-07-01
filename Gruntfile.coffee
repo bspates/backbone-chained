@@ -6,16 +6,20 @@ module.exports = (grunt) ->
           except: ['_', 'Backbone']
       dist:
         files:
-          'js/backbone.chained.min.js': ['js/backbone-chained.js']
+          'backbone.chained.min.js': ['backbone.chained.js']
     coffee: 
+      compileWithMaps:
+        options:
+          sourceMap: true
+        files:
+          'backbone.chained.js': 'backbone-chained.coffee'
       glob_to_multiple: 
         expand: true
         flatten: true
+        dest: 'js/'
         src: [
-          "backbone-chained.coffee"
           "examples/*.coffee"
         ]
-        dest: 'js/'
         ext: '.js'
 
     watch:
