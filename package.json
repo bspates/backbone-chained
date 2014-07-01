@@ -1,0 +1,23 @@
+{
+  "name": "backbone.chained",
+  "version": "0.0.1",
+  "author": "Brian Spates",
+  "description": "Simple tree/chain of responsibility for view defined routing behavior. Easy solution for emulating normal webpage behavior (i.e. backbutton, forward)",
+  "licence": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bspates/backbone-chained.git"
+  },
+  "keywords": [
+    "backbone",
+    "route",
+    "back button"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-watch": "latest" ,
+    "grunt-contrib-coffee": "latest",
+    "coffee-script": "latest"
+  }
+}
