@@ -1,6 +1,6 @@
 {
   "name": "backbone.chained",
-  "version": "0.0.1",
+  "version": "0",
   "author": "Brian Spates",
   "description": "Simple tree/chain of responsibility for view defined routing behavior. Easy solution for emulating normal webpage behavior (i.e. backbutton, forward)",
   "licence": "MIT",
